@@ -1,0 +1,46 @@
+html, body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+#banner {
+    height: 100vh;
+    background-color: #595f5e; 
+    color: #ffffff;
+}
+
+#banner-image {
+    position: absolute;
+}
+
+#banner-image > img {
+    height: 100vh;
+}
+
+#banner-content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+}
+
+#banner-content p{
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+#banner-content p > span{
+    color: #ff9800;
+}
+
+#about {
+    height: 400px;
+}
+
+#skills {
+    height: 400px;
+}
