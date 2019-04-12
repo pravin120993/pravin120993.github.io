@@ -15,10 +15,12 @@ html, body {
 
 #banner-image > img {
     height: 100vh;
+    padding-left: 15%; 
 }
 
 #banner-content{
     height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +34,20 @@ html, body {
     font-size: 48px;
     margin: 0;
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    #banner-content{
+        padding-top: 100px;
+    }
+
+    #banner-content p{
+        font-size: 30px;
+    }
+
+    #banner-image > img {
+        padding-left: 0; 
+        max-width: 100%;
+    }
 }
 #banner-content p > span{
     color: #ff9800;
